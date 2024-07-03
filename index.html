@@ -21,9 +21,6 @@
       flex-direction: column;
       align-items: center;
       text-align: center;
-width: 100%; /* Change 1: Added width: 100%; */
-      padding: 1rem; /* Change 1: Added padding: 1rem; */
-      box-sizing: border-box;
     }
 
     .splash-screen img {
@@ -57,32 +54,6 @@ width: 100%; /* Change 1: Added width: 100%; */
       font-size: 1.2rem;
       margin-bottom: 1rem;
     }
-
-    @media (max-width: 768px) {
-      .splash-screen img {
-        max-width: 70%;
-      }
-      .splash-screen .game-description,
-      .splash-screen .game-controls {
-        font-size: 1rem;
-      }
-      .splash-screen button {
-        font-size: 1rem;
-      }
-    }
-
-    @media (max-width: 480px) {
-      .splash-screen img {
-        max-width: 90%;
-      }
-      .splash-screen .game-description,
-      .splash-screen .game-controls {
-        font-size: 0.9rem;
-      }
-      .splash-screen button {
-        font-size: 0.9rem;
-      }
-    }    
   </style>
 </head>
 <body>
