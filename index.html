@@ -5,12 +5,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cthulhu</title>
   <style>
-    /* ... (existing styles) ... */
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: black;
+      overflow: hidden;
+    }
+
+   .splash-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.splash-screen img {
+  max-width: 50%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+.splash-screen .game-description {
+  max-width: 600px;
+  margin-bottom: 2rem;
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.splash-screen .game-controls {
+  margin-bottom: 2rem;
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.splash-screen button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
   </style>
 </head>
 <body>
   <div class="splash-screen">
     <img src="game/thumbnail.png" alt="Cthulhu Game Thumbnail">
+    <!-- Insert the game description and controls here -->
     <div class="game-description">
       Cthulhu is a thrilling space shooter game where you are tasked with defending Earth from invasion. Defend Earth from a continuous onslaught of Cthulhu's minions, confront the terrifying Cthulhu, and unravel the secrets of the cosmos.
     </div>
@@ -29,37 +78,4 @@
   </div>
 
   <script>
-    function startGame() {
-      document.body.innerHTML = `
-        <div class="game-container">
-          <iframe src="game/index.html" frameborder="0" width="100%" height="100vh"></iframe>
-          <button class="back-button" onclick="returnToSplashScreen()">Return to Splash Screen</button>
-        </div>
-      `;
-    }
-
-    function returnToSplashScreen() {
-      document.body.innerHTML = `
-        <div class="splash-screen">
-          <img src="game/thumbnail.png" alt="Cthulhu Game Thumbnail">
-          <div class="game-description">
-            Cthulhu is a thrilling space shooter game where you are tasked with defending Earth from invasion. Defend Earth from a continuous onslaught of Cthulhu's minions, confront the terrifying Cthulhu, and unravel the secrets of the cosmos.
-          </div>
-          <div class="game-controls">
-            Controls:
-            <ul>
-              <li>Move: A D </li>
-              <li>Shoot: Space</li>
-              <li>Shield: Enter </li>
-            </ul>
-          </div>
-          <button onclick="startGame()">Start Game</button>
-          <a href="game/FeatureDesignDocument.pdf" target="_blank">
-            <button>Feature Design Document</button>
-          </a>
-        </div>
-      `;
-    }
-  </script>
-</body>
-</html>
+    function startGame() { document.body.innerHTML = ` <iframe src="game/index.html" frameborder="0" width="800" height="600"></iframe> `; } </script> </body> </html>
