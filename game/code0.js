@@ -778,7 +778,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) == 50;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12250924);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12220932);
 }
 }
 if (isConditionTrue_0) {
@@ -935,7 +935,7 @@ if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(2).add(1);
 }{gdjs.evtTools.runtimeScene.setTimeScale(runtimeScene, 1.5);
 }{for(var i = 0, len = gdjs.Game_32ScreenCode.GDCthulhuObjects2.length ;i < len;++i) {
-    gdjs.Game_32ScreenCode.GDCthulhuObjects2[i].returnVariable(gdjs.Game_32ScreenCode.GDCthulhuObjects2[i].getVariables().getFromIndex(0)).setNumber(70000000);
+    gdjs.Game_32ScreenCode.GDCthulhuObjects2[i].returnVariable(gdjs.Game_32ScreenCode.GDCthulhuObjects2[i].getVariables().getFromIndex(0)).setNumber(80000000);
 }
 }{gdjs.evtTools.sound.unloadSound(runtimeScene, "68e04f79bc08aee15acde811d1c5cd37514bf661e624e42352bd61b372749f03_Improv for Evil.aac");
 }{gdjs.evtTools.sound.playSound(runtimeScene, "9c4cfcaf9de9c66e07b56da9a23386e2f97b6835e942e6ba207167198cb5ef74_Wakka Wakka.aac", false, 100, 1);
@@ -1116,7 +1116,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "ShieldTimer") >= 15;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12269196);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12239204);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -1170,7 +1170,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Return");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12272164);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12242172);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -1235,7 +1235,7 @@ for (var i = 0, k = 0, l = gdjs.Game_32ScreenCode.GDShieldObjects2.length;i<l;++
 gdjs.Game_32ScreenCode.GDShieldObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12274628);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12244636);
 }
 }
 if (isConditionTrue_0) {
@@ -1319,7 +1319,7 @@ for (var i = 0, k = 0, l = gdjs.Game_32ScreenCode.GDOctopusObjects2.length;i<l;+
 gdjs.Game_32ScreenCode.GDOctopusObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12277692);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12247700);
 }
 }
 if (isConditionTrue_0) {
@@ -1366,7 +1366,7 @@ for (var i = 0, k = 0, l = gdjs.Game_32ScreenCode.GDSquidObjects2.length;i<l;++i
 gdjs.Game_32ScreenCode.GDSquidObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12278924);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12248932);
 }
 }
 if (isConditionTrue_0) {
@@ -1413,7 +1413,7 @@ for (var i = 0, k = 0, l = gdjs.Game_32ScreenCode.GDInkObjects1.length;i<l;++i) 
 gdjs.Game_32ScreenCode.GDInkObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12280620);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12250628);
 }
 }
 if (isConditionTrue_0) {
@@ -1445,7 +1445,7 @@ for (var i = 0, k = 0, l = gdjs.Game_32ScreenCode.GDBaseBarrierObjects2.length;i
 gdjs.Game_32ScreenCode.GDBaseBarrierObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12281948);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12251956);
 }
 }
 if (isConditionTrue_0) {
@@ -1583,7 +1583,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) > 49;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12288284);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12258292);
 }
 }
 if (isConditionTrue_0) {
@@ -1645,7 +1645,7 @@ for (var i = 0, k = 0, l = gdjs.Game_32ScreenCode.GDCthulhuObjects2.length;i<l;+
 gdjs.Game_32ScreenCode.GDCthulhuObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12290428);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12260436);
 }
 }
 if (isConditionTrue_0) {
@@ -1679,7 +1679,7 @@ for (var i = 0, k = 0, l = gdjs.Game_32ScreenCode.GDCthulhuObjects2.length;i<l;+
 gdjs.Game_32ScreenCode.GDCthulhuObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12291492);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12261500);
 }
 }
 if (isConditionTrue_0) {
@@ -1713,7 +1713,7 @@ for (var i = 0, k = 0, l = gdjs.Game_32ScreenCode.GDCthulhuObjects2.length;i<l;+
 gdjs.Game_32ScreenCode.GDCthulhuObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12292868);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12262876);
 }
 }
 if (isConditionTrue_0) {
@@ -1747,7 +1747,7 @@ for (var i = 0, k = 0, l = gdjs.Game_32ScreenCode.GDCthulhuObjects2.length;i<l;+
 gdjs.Game_32ScreenCode.GDCthulhuObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12294148);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12264156);
 }
 }
 if (isConditionTrue_0) {
@@ -1822,7 +1822,7 @@ gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.Game_32ScreenCode.GDPlaye
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12225452);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12195460);
 }
 if (isConditionTrue_0) {
 gdjs.Game_32ScreenCode.GDAGraphicObjects1.length = 0;
